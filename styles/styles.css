@@ -122,12 +122,12 @@ h4 {
 
 /* Background color for hero section */
 .hero-section {
-    height: 600px;
-    margin-right: auto;
-    padding: 94px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/office-backgrounnd.png");
     background-position: center;
     background-size: cover;
+    height: 600px;
+    margin-right: auto;
+    padding: 94px 0;
     position: relative;
 }
 
