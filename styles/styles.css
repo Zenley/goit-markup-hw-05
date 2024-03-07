@@ -221,6 +221,7 @@ transition-duration: 250ms;
     color: #4D5AE5;
     outline: none;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .section-one{
