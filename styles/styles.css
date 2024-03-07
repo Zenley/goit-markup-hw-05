@@ -32,6 +32,8 @@
         font-size: 18px;
         padding-right: 76px;
         padding-left: 40px;
+        transition-duration: 250ms;
+        outline: none;
     }
 
 a {
@@ -73,6 +75,16 @@ h4 {
     line-height: 1.5;
 }
 
+.nav-list a{
+transition-duration: 250ms;
+outline: none;
+}
+
+.nav-list a.active{
+    border-bottom: 4px solid #404BBF;;
+    padding-bottom: 16px;
+}
+
 [href$=".html"]:hover{
     color: #404BBF;
 }
@@ -95,10 +107,13 @@ h4 {
 
 .contact>li>a:hover {
 color: #404BBF;
+transition-duration: 250ms;
 }
 
 .contact>li>a:focus {
     color: #404BBF;
+    outline: none;
+    transition-duration: 250ms;
 }
 
 /* Background color for hero section */
@@ -148,6 +163,46 @@ color: #404BBF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15);
     border: 1px solid #4D5AE5;
     margin-top: 20px;
+    transition-duration: 250ms;
+}
+
+.is-hidden{
+    visibility: hidden;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content{
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #ffffff;
+    width: 408px;
+    height: 584px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.close-btn{
+    background-color: #E7E9FC;
+    border-radius: 50%;
+    position: absolute;
+    color: #000;
+    outline: none;
+    right: 24px;
+    top: 24px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section .container{
@@ -158,9 +213,14 @@ color: #404BBF;
     margin-left: 350px;
 }
 
-.order-service:hover{
+.order-service:hover,
+.order-service:focus
+{
     background-color: #E7E9FC;
+    border: 1px solid #E7E9FC;
     color: #4D5AE5;
+    outline: none;
+    cursor: pointer;
 }
 
 .section-one{
@@ -287,6 +347,8 @@ color: #404BBF;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 250ms;
+    outline: none;
 }
 
 .social-media .icon:hover,
@@ -324,6 +386,7 @@ color: #404BBF;
 .customers .customers-logo:hover,
 .customers .customers-logo:active{
     border: 1px solid #10A5F5;
+    transition: 250ms;
 }
 
 .customers-logo svg{
@@ -332,6 +395,7 @@ color: #404BBF;
 
 .customers-logo svg :hover{
     color: #10A5F5;
+    transition: 250ms;
 }
 
 .customers-logo svg use{
@@ -369,6 +433,8 @@ color: #404BBF;
     color: #ffffff;
     line-height: 1.31;
     font-size: 18px;
+    transition: 250ms;
+    outline: none;
 }
 
 .footer .container h4{
@@ -400,10 +466,14 @@ font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 250ms;
+    outline: none;
 }
 
-.social-media-footer  :hover{
+.social-media-footer :hover,
+.social-media-footer :focus{
     background-color: #10A5F5;
+    outline: none;
 }
 
 
