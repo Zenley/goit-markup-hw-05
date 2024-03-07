@@ -89,12 +89,12 @@ h4 {
     padding-bottom: 16px;
 }
 
-.another-contact{
-        list-style: none;
-        font-weight: 500;
-        color: var(--subtitle-color);
-        display: inline-flex;
-        justify-content: center;
+.another-contact {
+    list-style: none;
+    font-weight: 500;
+    color: var(--subtitle-color);
+    display: inline-flex;
+    justify-content: center;
 }
 
 .nav-list [href$=".html"]:visited {
@@ -206,6 +206,7 @@ h4 {
     outline: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /* Portofolio only */
 .portofolio-buttons {
     text-align: center;
@@ -238,28 +239,29 @@ h4 {
     top: 0;
     height: 300px;
     width: 360px;
-    background-color: #4D5AE5;;
+    background-color: #4D5AE5;
+    ;
     opacity: 1;
     transform: translateY(102%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-overlay:hover .overlay{
+.img-overlay:hover .overlay {
     transform: translateY(0px);
 }
 
-.text-overlay{
+.text-overlay {
     color: #F4F4FD;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px 32px 164px 32px ;
+    padding: 40px 32px 164px 32px;
 }
 
 .portofolio-list-one>li:hover,
-.portofolio-list-one>li:active{
+.portofolio-list-one>li:active {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #ffffff; 
+    background: #ffffff;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -313,7 +315,7 @@ h4 {
 }
 
 .portofolio-list-three>li:hover,
-.portofolio-list-three>li:active{
+.portofolio-list-three>li:active {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #ffffff;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -456,10 +458,10 @@ h4 {
     transform: scale(1.1);
 }
 
-.list-border>div>ul>li{
-   border: 1px solid #E7E9FC;
+.list-border>div>ul>li {
+    border: 1px solid #E7E9FC;
 }
 
-.list-border{
+.list-border {
     margin-bottom: 120px;
 }
